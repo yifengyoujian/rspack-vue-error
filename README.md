@@ -13,7 +13,7 @@ import webpack = require('webpack')
 
 const StyleInineLoader: webpack.loader.Loader = function (source) {
   // TODO minify this?
-  return source`
+  return source
 }
 
 export default StyleInineLoader
