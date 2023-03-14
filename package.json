@@ -1,0 +1,22 @@
+{
+  "name": "rspack-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rspack serve",
+    "build": "rspack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rspack/cli": "^0.1.0",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "vue-rsloader": "^0.0.8"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  }
+}
